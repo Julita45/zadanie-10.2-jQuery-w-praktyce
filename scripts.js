@@ -13,6 +13,6 @@ $('p').each(function(index, element) {
 	$(element).append(button)
 });
 
-$('button').on(function() {
+$('button').on("click",function() {
 	alert($(this).attr('data-tmp'));
 });
